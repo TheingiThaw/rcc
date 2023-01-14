@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#section1{
+    margin: 0 auto;
+    width: 85%;
+}
+.section1{
+    margin: 0 auto;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: Uppercase;
+    background-color: rgba(240, 248, 255, 0.3);
+}
+a{
+    text-decoration: none;
+}
+
+#clear{
+    clear:both;
+}
+.category{
+    float: left;
+    width: 28%;
+    height: 35%;
+    margin-top: 3%;
+    margin-right: 8%;
+}
+
+#Tent{
+    background-image: url('../images/tentimg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#CampFur{
+    background-image: url('../images/campfur.jpg');
+    background-size:cover;
+    background-position: center;
+}
+#SleepBag {
+    background-image: url('../images/sleepbag.jpg');
+    background-size:cover;
+    background-position: center;
+    margin-right:0;
+}
+#Lighting{ 
+    background-image: url('../images/lighting.jpg');
+    background-size:cover;
+    background-position: center;
+} 
+#Clothing{
+    background-image: url('../images/campingclothes.jpg');
+    background-size:cover;
+    background-position: center;
+}
+#Footwear{
+    background-image: url('../images/footwear.jpg');
+    background-size:cover;
+    background-position: center;
+    margin-right: 0;
+}
+#OutdoorAcc{
+    background-image: url('../images/');
+    background-size:cover;
+    background-position: center;
+    margin: 3% 11%;
+}
+#OutdoorKit{
+    background-image: url('../images/outdoorkitchen.jpg');
+    background-size:cover;
+    background-position: center;
+    margin: 3% 11%;
+}
+
+#section2{
+    background-color: yellow;
+    margin: 2% auto;
+    height: 70%;
+}
+
+#section2 h2{
+    margin: 0;
+    padding: 1% 0% 0% 0%;
+    text-align: center;
+}
+#section2 h3{
+    margin: 0;
+    padding: 0;
+    margin-left: 15%;
+}
+.items{
+    float: left;
+    height: 100%;
+    width: 20%;
+    margin: 3% 0% 1% 0%;
+}
+.itemimgs{
+    display: flex;
+    justify-content: center;
+}
+.itemimg{
+    width: 70%;
+    height: 50%;
+}
+
+.info{
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+#section3{
+    height: 80%;
+    width: 100%;
+    background-color: blue;
+}
+#section3 h2{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border: 1px solid black;
+    height: 5%;
+}
+.blog1, .blog2, .blog3{
+    width: 25%;
+    height: 70%;
+    background-color: white;
+    border-radius: 20%;
+    float: left;
+}
+.blog1{
+    margin-left: 5%;
+}
+.blog2{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.blog3{
+    margin-right:4%;
+}
+.viewmore{
+    text-align: center;
+    margin: 2% 0%; 
+}
+#section3 a{
+    background-color: violet;
+    padding: 0.7% 1%;
+    border-radius: 20%;
+    border: 1px solid black;
+}
