@@ -75,7 +75,6 @@ a{
 }
 
 #section2{
-    background-color: yellow;
     margin: 2% auto;
     height: 70%;
 }
@@ -115,13 +114,12 @@ a{
 #section3{
     height: 80%;
     width: 100%;
-    background-color: blue;
+    
 }
 #section3 h2{
     margin: 0;
     padding: 0;
     text-align: center;
-    border: 1px solid black;
     height: 5%;
 }
 .blog1, .blog2, .blog3{
@@ -133,21 +131,40 @@ a{
 }
 .blog1{
     margin-left: 5%;
+    background-image: url('../images/colemantent.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 .blog2{
     margin-left: 8%;
     margin-right: 8%;
+    background-image: url('../images/campingwithbaby.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 .blog3{
     margin-right:4%;
+    background-image: url('../images/campinggift.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
+
 .viewmore{
     text-align: center;
     margin: 2% 0%; 
 }
-#section3 a{
+#section3 .viewmoreanchor{
     background-color: violet;
     padding: 0.7% 1%;
     border-radius: 20%;
     border: 1px solid black;
+}
+
+.tentreview{
+    background:rgba(186, 189, 191,0.7);
+    position: absolute;
+    bottom: 0px;
 }
