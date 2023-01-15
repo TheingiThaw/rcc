@@ -242,3 +242,46 @@ a{
     padding: 3%;
     width: 100%;
 }
+
+
+#section7{
+    width: 80%;
+    height: 60%;
+    margin: 5% auto;
+}
+
+#form, #contact, #map{
+    float: left;
+}
+#form{
+    width: 38%;
+}
+#contact{
+    width: 25%;
+}
+.contactform{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+#section7 h1{
+    text-align: left;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.form input{
+    padding: 3%;
+    margin-top: 7%;
+}
+#cusemail{
+    margin-left: 3%;
+}
+#message{
+    width:88%;
+}
+.contactinfo{
+    margin-top: 9%;
+    font-size: 1.1rem;
+}
+#map iframe{
+    margin-left: 12%;
+}
