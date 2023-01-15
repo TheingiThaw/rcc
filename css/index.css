@@ -170,8 +170,16 @@ a{
 }
 
 #section4{
-    background-image: url('../images/');
+    background-image: url('../images/campingphoto.jpg');
     background-size: cover;
     background-position: center;
-    height: 40%;
+    height: 55%;
+    position: relative;
+}
+.discountinfo{
+    background-color:rgba(186, 189, 191,0.7);
+    position: absolute;
+    top: 40%;
+    left: 67%;
+    padding: 3%;
 }
