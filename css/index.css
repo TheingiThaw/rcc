@@ -183,3 +183,62 @@ a{
     left: 67%;
     padding: 3%;
 }
+
+#section5{
+    height: 80%;
+}
+.testimonial{
+    height: 50%;
+    width: 30%;
+    float: left;
+}
+.profileimg{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#section5 h2, h1{
+    text-align: center;
+    margin-top: 3%;
+}
+#section5 h1{
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+.t1{
+    margin-left: 2%;
+}
+.t2{
+    margin: 0% 2%;
+}
+.t3{
+    margin-right: 2%;
+}
+.testimonial p{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 4%;
+}
+
+#section6{
+    height: 17%;
+    position: relative;
+}
+#followus, #signup{
+    position: absolute;
+}
+#followus{
+    width: 50%;
+    left: 3%;
+    top: 50%
+}
+#signup{
+    top: 30%;
+    left: 60%;
+}
+#email{
+    display: block;
+    margin-top: 6%;
+    padding: 3%;
+    width: 100%;
+}
