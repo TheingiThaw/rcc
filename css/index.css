@@ -168,3 +168,10 @@ a{
     position: absolute;
     bottom: 0px;
 }
+
+#section4{
+    background-image: url('../images/');
+    background-size: cover;
+    background-position: center;
+    height: 40%;
+}
