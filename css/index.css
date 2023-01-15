@@ -216,7 +216,9 @@ a{
 
 #section6{
     margin: 5% 0;
-    background-color: blue;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 3% 0;
 }
 #followus, #signup{
     float: left;
@@ -227,8 +229,9 @@ a{
     margin-left: 9%;
 }
 #signup{
-    
+    margin-left: 10%;
 }
+
 #email{
     display: block;
     margin-top: 6%;
@@ -240,7 +243,7 @@ a{
 #section7{
     width: 80%;
     margin: 5% auto;
-    background-color: blue;
+    
 }
 
 #form, #contact, #map{
