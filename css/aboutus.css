@@ -5,7 +5,18 @@
 
 #section1{
     width: 100%;
-    background-image: url('../images/');
+    background-image: url('../images/history.jpg');
     background-size: cover;
     background-position: center;
+    height: 40%;
+    margin: 0 auto;
+}
+
+#history{
+    height: 40%;
+    width: 20%;
+    background-color: black;
+}
+#history h3, p{
+    color: white;
 }
