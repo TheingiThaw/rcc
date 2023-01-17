@@ -6,8 +6,6 @@
 #section1{
     margin: 0 auto;
     width: 85%;
-    height: 80%;
-    background-color: blue;
 }
 .section1{
     margin: 0 auto;
@@ -23,9 +21,10 @@ a{
 #clear{
     clear:both;
 }
+
 .category{
     width: 28%;
-    height: 35%;
+    height: 35vh;
     margin-top: 3%;
     margin-right: 8%;
 }
@@ -76,8 +75,8 @@ a{
 }
 
 #section2{
-    margin: 2% auto;
-    height: 80%;
+    margin: 5% auto 0%;
+    height: 80vh;
 }
 
 #section2 h2{
@@ -112,9 +111,9 @@ a{
 }
 
 #section3{
-    height: 80%;
+    height: 80vh;
     width: 100%;
-    
+    margin-top: 5%;
 }
 #section3 h2{
     margin: 0;
@@ -173,9 +172,10 @@ a{
     background-image: url('../images/campingphoto.jpg');
     background-size: cover;
     background-position: center;
-    height: 55%;
+    height: 55vh;
     position: relative;
     width: 100%;
+    margin-top: 5%;
 }
 .discountinfo{
     background-color:rgba(186, 189, 191,0.7);
@@ -185,7 +185,9 @@ a{
     padding: 3%;
 }
 
-
+#section5{
+    margin-top: 5%;
+}
 .testimonial{
     width: 30%;
     float: left;
@@ -219,10 +221,13 @@ a{
 }
 
 #section6{
-    margin: 5% 0;
+    margin: 5% 0% 0%;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding: 3% 0;
+}
+#section6 li{
+    list-style-type: none;
 }
 #followus, #signup{
     float: left;
@@ -288,58 +293,74 @@ a{
 
 #section8{
     width: 100%;
-    background-color: blue;
 }
 #payment{
     width: 100%;
     margin: 5% auto;
 }
 .paymentgp img{
-    width: 12%;
-    height: 8%;
+    width: 11%;
+    height: 6vh;
     margin: 0 3% 4%;
+}
+.paymentgp li{
+    list-style-type: none;
+    display: inline;
 }
 #payment p{
     text-align: center;
+    margin-right: 5%;
 }
 
-footer{
-    margin: 0 auto;
-    margin-bottom: 1%;
-    height: 40%;
-}
-footer ul{
-    list-style-type: none;
-}
-footer li{
-    display: inline;
-}
-
-footer p{
-    text-align: center;
-}
 .kpay{
     margin-left: 5%;
 }
 .wave{
     margin-right: 4%;
 }
-.float{
-    float: left;
-}
-
-#footer1, #footer2, #footer3, #footer4{
-    width: 25%;
-}
 .paymentgp{
     margin: 0 auto;
     width: 30%;
 }
 
+.float{
+    float: left;
+}
+
+#footer1, #footer2, #footer3{
+    width: 17%;
+    margin-left: 5%;
+}
+#footer4{
+    width: 30%;
+}
+footer{
+    margin: 0 auto;
+    padding-bottom: 1%;
+    height: 20vh;
+    padding-top: 2%;
+    background-color: gray;
+}
+footer ul{
+    list-style-type: none;
+}
+footer li{
+    margin-top: 2%;
+}
+footer a{
+    color: white;
+}
+footer h5{
+    font-size: 1.3rem;
+    color: white;
+    
+}
+
 #copyright{
     background-color: #333;
-    height: 10%;
+    height: 3vh;
 }
 #copyright p{
     color: white;
+    text-align: center;
 }

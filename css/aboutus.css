@@ -5,17 +5,20 @@
 
 #section1{
     width: 100%;
-    background-image: url('../images/history.jpg');
+    background-image: url('../images/history2.jpg');
     background-size: cover;
     background-position: center;
-    height: 40%;
-    margin: 0 auto;
+    height: 40vh;
+    position: relative;
 }
 
 #history{
     height: 40%;
     width: 20%;
-    background-color: black;
+    position: absolute;
+    left: 66%;
+    top: 10%;
+    padding: 3%;
 }
 #history h3, p{
     color: white;
