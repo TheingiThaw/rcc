@@ -6,6 +6,8 @@
 #section1{
     margin: 0 auto;
     width: 85%;
+    height: 100%;
+    background-color: gray;
 }
 .section1{
     margin: 0 auto;
@@ -21,10 +23,12 @@ a{
 #clear{
     clear:both;
 }
+
 .category{
     float: left;
-    width: 28%;
-    height: 35%;
+    width: 27%;
+    height: 30%;
+    border: 1px solid blue;
     margin-top: 3%;
     margin-right: 8%;
 }
@@ -76,6 +80,7 @@ a{
 
 #section2{
     margin: 2% auto;
+    height: 80%;
 }
 
 #section2 h2{
@@ -111,6 +116,7 @@ a{
 
 #section3{
     width: 100%;
+    height: 80%;
     
 }
 #section3 h2{
@@ -172,6 +178,7 @@ a{
     background-position: center;
     height: 55%;
     position: relative;
+    width: 100%;
 }
 .discountinfo{
     background-color:rgba(186, 189, 191,0.7);
@@ -243,7 +250,7 @@ a{
 #section7{
     width: 80%;
     margin: 5% auto;
-    
+    width: 80%;
 }
 
 #form, #contact, #map{
@@ -287,6 +294,7 @@ a{
 footer{
     margin: 0 auto;
     margin-bottom: 1%;
+    height: 40%;
 }
 footer ul{
     list-style-type: none;
@@ -299,11 +307,6 @@ footer li{
     height: 7%;
     margin: 0 3% 4%;
 }
-
-.paymentgp{
-    margin: 0 auto;
-    width: 30%;
-}
 footer p{
     text-align: center;
 }
@@ -313,10 +316,14 @@ footer p{
 .wave{
     margin-right: 4%;
 }
-#float{
+.float{
     float: left;
 }
 
-#float1, #float2, #float3, #float4{
+#footer1, #footer2, #footer3, #footer4{
     width: 25%;
+}
+.paymentgp{
+    margin: 0 auto;
+    width: 30%;
 }
