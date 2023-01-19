@@ -3,15 +3,25 @@
     padding: 0;
 }
 
-#slider{
-    background-image: url('../images/contact2.jpg');
-    background-size: fill;
-    background-position:center;
-    width: 100%;
+#section1{
+    background-image: url('../images/contact1.jpg');
+    background-size: cover;
+    background-position:top;
+    width: 60%;
     position: relative;
+    height: 40vh;
+    margin: 0 auto;
 }
 
 #contact{
     position: absolute;
+    top:  40%;
+    left: 10%;
+}
 
+#cusservice{
+    width: 50%;
+}
+#callcenter{
+    width: 50%;
 }
