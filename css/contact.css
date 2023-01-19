@@ -95,7 +95,23 @@
     padding: 2%;
     margin-left: 66%;
 }
+#form{
+    margin-top: 3%;
+}
+#form>label{
+    width: 25%;
+    padding:  8%;
+}
 #form>input{
     background-color: transparent;
     border:none;
+    width: 74%;
+    margin-right: 0px;
+    padding: 3% 0%;
+}
+#form>textarea{
+    background-color: transparent;
+    width: 90%;
+    padding: 3%;
+    border: none;
 }
