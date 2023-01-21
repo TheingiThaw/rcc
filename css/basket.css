@@ -9,8 +9,13 @@
     width: 78%;
     margin: 0 auto;
 }
+.yourcart{
+    text-align: center;
+    padding: 3% 0%;
+}
 #section1>table{
     width: 100%;
+    height: auto;
 }
 .c-item{
     width: 50%;
@@ -24,12 +29,24 @@
 .c-total{
     width: 20%;
 }
+#card>tr{
+    height: 10vh;
+}
+
 
 #c-final{
     width: 40%;
     margin-left: 59%;
 }
-#c-final>input{
+.c-final{
+    margin-top: 2%;
+}
+.c-final>label{
+    width: 30%;
+    padding: 3%;
+}
+
+.c-final>input{
     width: 69%;
     padding: 2%;
     border: none;
@@ -37,14 +54,15 @@
     margin-right: 0px;
     background-color: transparent;
 }
-#c-final>label{
-    width: 30%;
-    padding: 3%;
-}
-#c-final>hr{
-    margin: 2% 0% 2%;
+
+#cart>td{
+    text-align: center;
 }
 
+#section2>h3{
+    text-align: center;
+    margin: 3% auto;
+}
 #furnitures{
     width: 78%;
     margin: 0 auto;
