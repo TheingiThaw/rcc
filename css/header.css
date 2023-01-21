@@ -43,6 +43,9 @@ header{
     margin-left: 50%;
     margin-top: 2%;
 }
+#country{
+    border: none;
+}
 
 #navbar2{
     width: 100%;

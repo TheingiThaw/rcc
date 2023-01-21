@@ -83,7 +83,7 @@
 }
 
 #section4{
-    background: linear-gradient(90deg, rgba(63,41,55,0.1) 0%, rgba(100,111,61,0.17503501400560226) 0%, rgba(0,0,0,0.6223739495798319) 100%), url('../images/photo33.jpg');
+    background-image: url('../images/photo33.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -96,11 +96,12 @@
     margin-left: 66%;
 }
 #form{
-    margin-top: 3%;
+    margin-top: 2%;
+    
 }
 #form>label{
     width: 25%;
-    padding:  8%;
+    padding: 3%;
 }
 #form>input{
     background-color: transparent;
@@ -114,4 +115,42 @@
     width: 90%;
     padding: 3%;
     border: none;
+}
+
+#footer1, #footer2, #footer3{
+    width: 17%;
+    margin-left: 5%;
+}
+#footer4{
+    width: 30%;
+}
+footer{
+    margin: 0 auto;
+    padding-bottom: 1%;
+    height: 20vh;
+    padding-top: 2%;
+    background-color: gray;
+}
+footer ul{
+    list-style-type: none;
+}
+footer li{
+    margin-top: 2%;
+}
+footer a{
+    color: white;
+}
+footer h5{
+    font-size: 1.3rem;
+    color: white;
+    
+}
+
+#copyright{
+    background-color: #333;
+    height: 3vh;
+}
+#copyright p{
+    color: white;
+    text-align: center;
 }

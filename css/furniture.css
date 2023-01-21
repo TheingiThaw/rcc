@@ -1,4 +1,78 @@
-items{
-    width: 80%;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#section1{
+    padding: 1% 0%;
+    background-color: #CC9A9B;
+}
+#section1 p{
+    text-align:  center;
+}
+
+#section2{
+    width: 100%;
+    height: 40vh;
+    position: relative;
+}
+#section2 div{
+    height: 100%;
+    width: 25%;
+}
+#shopnow1{
+    background-image: url('../images/tent.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#shopnow2{
+    background-image: url('../images/table.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#shopnow3{
+    background-image: url('../images/mattress.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#shopnow4{
+    background-image: url('../images/accessories.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.shopinfo{
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 20%;
+}
+
+#campfur{
+    width: 100%;
+    margin: 5% 0%;
+}
+#campfur h1{
+    width: 20%;
+    margin-left: 20%;
+}
+.sortby{
+    width: 6%;
+    margin-left: 5%;
+    padding: 0.7% 0.3%;
+}
+
+#furnitures{
+    width: 75%;
     margin: 0 auto;
+}
+.left{
+    margin-left: 0px;
+}
+.items{
+    width: 23%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
