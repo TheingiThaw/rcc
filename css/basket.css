@@ -6,7 +6,7 @@
     background-color: #f0ebe2;
 }
 #section1{
-    width: 78%;
+    width: 70%;
     margin: 0 auto;
 }
 .yourcart{
@@ -32,18 +32,28 @@
 #card>tr{
     height: 10vh;
 }
-
+td{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.i-name{
+    text-align: left;
+}
+td>img{
+    width: 15%;
+    height: 10vh;
+}
 
 #c-final{
     width: 40%;
-    margin-left: 59%;
+    margin-left: 55%;
 }
 .c-final{
     margin-top: 2%;
 }
 .c-final>label{
     width: 30%;
-    padding: 3%;
+    padding: 2%;
 }
 
 .c-final>input{
