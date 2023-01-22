@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#section1{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+    
+
+#r-slider{
+    width: 50%;
+}
+.r-img{
+    width: 50%;
+}
+.r-img>img{
+    width: 100%;
+    height: auto;
+}
