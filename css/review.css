@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+#container{
+    background-color: #FFFFFF;
+}
 #section1{
     width: 100%;
     margin: 0 auto;
@@ -38,6 +40,7 @@
 }
 .fback-img>img{
     border-radius: 50px;
+    
 }
 .fback-l{
     width: 49%;
@@ -66,3 +69,146 @@
     border-radius: 50px;
 }
 
+
+#section6{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 3% 0;
+}
+#section6 li{
+    list-style-type: none;
+}
+#followus, #signup{
+    float: left;
+}
+
+#followus{
+    width: 40%;
+    margin-left: 9%;
+}
+#signup{
+    margin-left: 10%;
+}
+
+#email{
+    display: block;
+    margin-top: 6%;
+    padding: 4%;
+    width: 100%;
+}
+
+#section7{
+    width: 80%;
+    margin: 5% auto;
+}
+
+#form, #contact, #map{
+    float: left;
+}
+#form{
+    width: 40%;
+}
+#contact{
+    width: 30%;
+}
+.contactform{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+#section7 h1{
+    text-align: left;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.form input{
+    padding: 3%;
+    margin-top: 7%;
+}
+#cusemail{
+    margin-left: 3%;
+}
+#message{
+    width:88%;
+}
+.contactinfo{
+    margin-top: 9%;
+    font-size: 1.1rem;
+}
+#map iframe{
+    width: 100%;
+    height: 50%;
+}
+
+#section8{
+    width: 100%;
+}
+#payment{
+    width: 100%;
+    margin: 5% auto;
+}
+.paymentgp img{
+    width: 11%;
+    height: 6vh;
+    margin: 0 3% 4%;
+}
+.paymentgp li{
+    list-style-type: none;
+    display: inline;
+}
+#payment p{
+    text-align: center;
+    margin-right: 5%;
+}
+
+.kpay{
+    margin-left: 5%;
+}
+.wave{
+    margin-right: 4%;
+}
+.paymentgp{
+    margin: 0 auto;
+    width: 30%;
+}
+
+.float{
+    float: left;
+}
+
+#footer1, #footer2, #footer3{
+    width: 17%;
+    margin-left: 5%;
+}
+#footer4{
+    width: 30%;
+}
+footer{
+    margin: 0 auto;
+    padding-bottom: 1%;
+    height: 20vh;
+    padding-top: 2%;
+    background-color: gray;
+}
+footer ul{
+    list-style-type: none;
+}
+footer li{
+    margin-top: 2%;
+}
+footer a{
+    color: white;
+}
+footer h5{
+    font-size: 1.3rem;
+    color: white;
+    
+}
+
+#copyright{
+    background-color: #333;
+    height: 3vh;
+}
+#copyright p{
+    color: white;
+    text-align: center;
+}

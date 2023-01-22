@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#section1{
+    background-image: url('../images/offer1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 40vh;
+}
