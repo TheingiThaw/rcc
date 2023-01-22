@@ -1,6 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    width: 100%;
+    background-color: #fbfbfb;
+}
+#header li{
+    list-style-type: none;
+    display: inline;
+}
+#header a{
+    text-decoration: none;
+    margin-left: 20%;
+}
+#navbar1{
+    width: 25%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.logoimg{
+    width: 39%;
+    display: flex;
+    justify-content: center;
+}
+.logoimg img{
+    width: 30%;
+    height: 11vh;
+}
+#navbar2{
+    width: 20%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.left{
+    margin-left: 0px;
+}
+
+#container{
+    margin: 0 auto;
+    width: 60%;
+    background-color: #f0ebe2;
+    padding: 3%;
+}
+.float{
+    float: left;
+}
 #p-img{
-    width: 40%
+    width: 40%;
 }
 #p-detail{
-    width: 59%;
+    width: 47%;
+    padding: 3%;
+    margin-left: 5%;
+}
+.p-img>img{
+    width: 100%;
+    height: auto;
+    margin-top: 30%;
+}
+
+#p-detail h1{
+    margin-bottom: 4%;
+}
+#p-detail p{
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-top: 4%;
+}
+#specs{
+    margin-top: 5%;
+}
+#f-purchase{
+    width: 50%;
+    padding: 3%;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin: 5% auto;
+}
+#atcart{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.atcart{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2% 9%;
+    margin-left: 50%;
+}
+
+
+#clear{
+    clear: both;
+}
+
+#section4{
+    background-image: url('../images/campingphoto.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 55vh;
+    position: relative;
+    width: 100%;
+}
+.discountinfo{
+    background-color:rgba(186, 189, 191,0.7);
+    position: absolute;
+    top: 27%;
+    left: 67%;
+    padding: 3%;
+}
+
+#section6{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 3% 0;
+}
+#section6 li{
+    list-style-type: none;
+}
+#followus, #signup{
+    float: left;
+}
+
+#followus{
+    width: 40%;
+    margin-left: 9%;
+}
+#signup{
+    margin-left: 10%;
+}
+
+#email{
+    display: block;
+    margin-top: 6%;
+    padding: 4%;
+    width: 100%;
+}
+
+#section8{
+    width: 100%;
+}
+#payment{
+    width: 100%;
+    margin: 3% auto;
+}
+.paymentgp img{
+    width: 11%;
+    height: 6vh;
+    margin: 0 3% 4%;
+}
+.paymentgp li{
+    list-style-type: none;
+    display: inline;
+}
+#payment p{
+    text-align: center;
+    margin-right: 5%;
+}
+
+.kpay{
+    margin-left: 5%;
+}
+.wave{
+    margin-right: 4%;
+}
+.paymentgp{
+    margin: 0 auto;
+    width: 30%;
+}
+
+#copyright{
+    background-color: #333;
+    height: 3vh;
+}
+#copyright p{
+    color: white;
+    text-align: center;
 }
