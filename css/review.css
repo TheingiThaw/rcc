@@ -20,3 +20,49 @@
     width: 100%;
     height: auto;
 }
+
+#section2{
+    width: 60%;
+    margin: 0 auto;
+    background-color: yellow;
+    padding: 3%
+}
+
+.feedbacks{
+    margin-top: 3% ;
+    background-color: blue;
+}
+.fback-img{
+    width: 33%;
+    margin-left: 5%;
+}
+.fback-img>img{
+    border-radius: 50px;
+}
+.fback-l{
+    width: 49%;
+    border: 1px solid solid;
+    border-radius: 15px;
+    margin-right: 6%;
+    background-color: white;
+    padding: 3%;
+    margin-top: 3%;
+}
+
+.fback-l1{
+    width: 49%;
+    border: 1px solid solid;
+    border-radius: 15px;
+    margin-left: 5%;
+    background-color: white;
+    padding: 3%;
+    margin-top: 3%;
+}
+.fback-img1{
+    width: 33%;
+    margin-left: 7%;
+}
+.fback-img1>img{
+    border-radius: 50px;
+}
+
