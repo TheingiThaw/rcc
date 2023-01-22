@@ -15,6 +15,11 @@ a{
     text-decoration: none;
 }
 
+#top{
+    background-image: url('../images/photo4.jpg');
+    background-size: cover;
+    background-position: center;
+}
 header{
     width: 80%;
     margin: 0 auto;
@@ -31,7 +36,7 @@ header{
 }
 #search{
     width: 26%;
-    margin-top: 2%;
+    margin-top: 3%;
     margin-left: 5%;
 }
 #search>input{
@@ -57,43 +62,27 @@ header{
 }
 
 #navbar2{
-    width:80%;
-    margin: 0 auto;
+    width: 100%;
 }
 #navbar2 ul{
     display: block;
+    margin-left: 3%;
     padding: 0.7% 0%;
-    margin-left: 5%;
+    
 }
 #navbar2 li{
     list-style-type: none;
     display: inline;
+    margin-right: 6%;
     margin-left: 4%;
-    margin-right: 5%;
-}
-.left{
-    margin-left: 0px;
-}
-.right{
-    margin-right: 0px;
-}
-
-
-#slider{
-    background-image: url('../images/photo4.jpg');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 60vh;
-    position: relative;
 }
 
 .quote{
+    
     font-family: 'Rubik Vinyl', cursive;
     text-align: center;
-    position: absolute;
-    left: 13%;
-    top: 9%;
+    position: relative;
+    right: 35%;
 }
 
 .quotep>span{

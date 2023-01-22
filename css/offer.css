@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 #section1{
     background-image: url('../images/offer1.jpg');
     background-size: cover;
@@ -9,4 +10,37 @@
     width: 80%;
     margin: 0 auto;
     height: 40vh;
+}
+
+#section2{
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+}
+#section2>h1{
+    text-align: center;
+    padding: 5% 0%;
+}
+
+.sortby{
+    margin-left: 45%;
+    width: 10%;
+    padding: 1% 0%;
+    border-radius: 15px;
+    text-align: center;
+}
+#packages{
+    width: 100%;
+    margin: 5% 0%;
+}
+.package{
+    width: 21%;
+    margin: 0% 0% 3% 2%;
+    padding: 1%;
+}
+.left{
+    margin-left: 1%;
+}
+.right{
+    margin-right: 0px;
 }
