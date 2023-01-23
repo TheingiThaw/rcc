@@ -2,32 +2,37 @@
     margin: 0;
     padding: 0;
 }
+.float{
+    float:left;
+}
 .center{
     text-align: center;
 }
-
+#clear{
+    clear: both;
+}
+#container{
+    background-color: #f0ebe2;
+}
 #section1{
     width: 100%;
-    background: linear-gradient(90deg, rgba(63,41,55,1) 0%, rgba(232,215,199,1) 0%, rgba(232,215,199,1) 38%, rgba(100,111,61,0.27503501400560226) 60%, rgba(232,215,199,1) 61%);
 }
 #contact{
     background-image: url('../images/contact1.jpg');
     background-size: cover;
     background-position:top;
-    width: 70%;
+    width: 100%;
     position: relative;
-    height: 40vh;
+    height: 70vh;
     margin: 0 auto;
-    border-top-left-radius: 60%;
-    border-top-right-radius: 60%;
-    border-bottom-left-radius: 60%;
-    border-bottom-right-radius: 60%;
 }
 
 .contact{
     position: absolute;
     top:  48%;
-    left: 10%;
+    left: 20%;
+    font-family: 'Kavoon', cursive;
+    font-size: 2rem;
 }
 
 #section2{
@@ -38,84 +43,127 @@
 #cusservice{
     width: 50%;
     margin-top: 5%;
+    text-align: center;
+}
+#cusservice i{
+    font-size: 3.5rem;
+    color: #5c1717;
+}
+#callcenter i{
+    font-size: 3.5rem;
+    color: #5c1717;
 }
 #callcenter{
     width: 50%;
     margin-top: 5%;
+    text-align: center;
 }
 #address{
     margin-top: 5%;
+    text-align:center;
+}
+#address i{
+    font-size: 4rem;
+    color: #5c1717;
 }
 .chead{
     margin-bottom: 4%;
     font-size: 1.4rem;
+    margin-top: 7%;
+    font-family: 'Rowdies', cursive;
 }
+
+.chead1{
+    margin-bottom: 4%;
+    font-size: 1.4rem;
+    margin-top: 4%;
+    font-family: 'Rowdies', cursive;
+}
+
 .cinfo{
     line-height: 1.7;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-family: 'Public Sans', sans-serif;
+    color: #172161;
 }
 
 #section3{
-    background-color:aliceblue;
+    background-color:#fff;
 }
 #message{
     width: 60%;
-    margin: 5% auto;
+    margin: 5% auto 0%;
     padding: 2% 0%;
 }
 .width{
     width: 15%;
     text-align: center;
-    margin-left: 7%;
+    margin-left: 5%;
     margin-right: 2%;
-    background-color: blue;
-    border-radius: 15%;
+    border-radius: 20px;
+    padding: 1%;
+}
+.width i{
+    font-size: 2rem;
+    color: #172161;
 }
 #section3 h4{
-    margin: 15% 0% 15%;
+    margin: 10% 0% 15%;
+    font-family: 'Rowdies', cursive;
 }
 .atag{
     border: 1px solid black;
-    padding: 3% 4%;
-    border-radius: 20%;
+    padding: 3% 8%;
+    border-radius: 20px;
     display: inline-block;
     margin-bottom: 15%;
+    font-family: 'Public Sans', sans-serif;
+    background-color:#5c1717;
+    color: #fff;
 }
-
 #section4{
-    background-image: url('../images/photo33.jpg');
-    background-size: cover;
-    background-position: center;
     width: 100%;
-    height: 60vh;
-}
-    
+    padding-bottom: 3%;
+} 
 #cform{
     width: 30%;
     padding: 2%;
-    margin-left: 66%;
+    padding-bottom: 0px;
+    margin: 0 auto;
 }
 #form{
     margin-top: 2%;
-    
 }
 #form>label{
     width: 25%;
     padding: 3%;
+    font-family: 'Rowdies', cursive;
+    color: #172161;
 }
+
 #form>input{
     background-color: transparent;
     border:none;
-    width: 74%;
+    width: 82%;
     margin-right: 0px;
     padding: 3% 0%;
 }
 #form>textarea{
     background-color: transparent;
     width: 90%;
-    padding: 3%;
+    padding: 6% 5%;
     border: none;
 }
+.cb{
+    font-family:'Public Sans', sans-serif;
+    color: #5c1717;
+    margin-top: 3%;
+}
+#cb{
+    font-size: 1.3rem;
+    margin-top: 3%;
+}
+
 
 #footer1, #footer2, #footer3{
     width: 17%;
@@ -124,11 +172,15 @@
 #footer4{
     width: 30%;
 }
+#footer4 p{
+    color: #fff;
+    font-family: 'Public Sans', sans-serif; 
+}
 footer{
     margin: 0 auto;
-    padding-bottom: 1%;
+    padding-bottom: 3%;
     height: 20vh;
-    padding-top: 2%;
+    padding-top: 3%;
     background-color: gray;
 }
 footer ul{
@@ -139,18 +191,21 @@ footer li{
 }
 footer a{
     color: white;
+    font-family: 'Public Sans', sans-serif; 
 }
 footer h5{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: white;
-    
+    margin-bottom: 7%;
 }
 
 #copyright{
     background-color: #333;
-    height: 3vh;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 #copyright p{
     color: white;
     text-align: center;
+    font-family: 'Public Sans', sans-serif;
 }
