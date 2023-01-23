@@ -5,13 +5,16 @@
 .center{
     text-align: center;
 }
+#container{
+    background-color: #f0ebe2;
+}
 
 #section1{
     width: 100%;
     background-image: url('../images/history2.jpg');
     background-size: cover;
     background-position: center;
-    height: 40vh;
+    height: 50vh;
     position: relative;
 }
 
@@ -20,72 +23,178 @@
     width: 20%;
     position: absolute;
     left: 66%;
-    top: 10%;
+    top: 20%;
     padding: 3%;
 }
 #history h3{
     color: white;
+    font-family: 'Rowdies', cursive;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 8%;
 }
 #history p{
     color: white;
+    font-family: 'Public Sans', sans-serif;
+    margin-top: 3%;
+    text-align: justify;
 }
 
 #section2{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    background-color: #fff;
+}
+ 
+#section2 h2{
+    font-family: 'Rowdies', cursive;
+    color: #172161;
+    margin-bottom: 3%;
+}
+#whychoseus p{
+    color: #172161;
+    font-family: 'Public Sans', sans-serif;
+    align-items: center;
     width: 75%;
     margin: 0 auto;
 }
- 
-#whychoseus p{
-    color: black;
+#whychoseus span{
+    font-size: 2rem;
 }
-
+#s3{
+    width: 90%;
+    margin: 0 auto;
+}
 #pastimg{
     width: 50%;
     background-image: url('../images/photo1.jpg');
     background-size: cover;
     background-position: center;
-    height: 35vh;
+    height: 80vh;
 }
 #ourpast{
     width: 50%;
+    padding-top: 15%;
+}
+#ourpast h3{
+    font-family: 'Rowdies', cursive;
+    color: #74282A;
+    text-align: center;
+    font-size: 1.7rem;
+    margin-bottom: 8%;
 }
 #ourpast p{
-    color: black;
+    color: #74282A;
+    font-family: 'Public Sans', sans-serif;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.3rem;
 }
 #tmrimg{
     width: 50%;
     background-image: url('../images/photo2.jpg');
     background-size: cover;
     background-position: center;
-    height: 35vh;
+    height: 80vh;
+
 }
 #ourtmr{
     width: 50%;
+    padding-top: 15%;
+}
+#ourtmr h3{
+    font-family: 'Rowdies', cursive;
+    color: #74282A;
+    text-align: center;
+    font-size: 1.7rem;
+    margin-bottom: 8%;
 }
 #ourtmr p{
-    color: black;
+    color: #74282A;
+    font-family: 'Public Sans', sans-serif;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.3rem;
+}
+#section4{
+    padding-top: 5%;
+    width: 100%;
+}
+#section4 p{
+    font-family: 'Anton', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #74282A;
+}
+#priority{
+    width:65%;
+    margin: 0 auto;
+    padding: 2% 4% 2%;
+    border-radius: 50px;
+    border: 1px solid #74282A;
+    margin-bottom: 5%;
+    background-color: #fff;
+}
+#vision{
+    width:65%;
+    margin: 0 auto;
+    padding: 2% 4% 2%;
+    border-radius: 50px;
+    border: 1px solid #74282A;
+    margin-bottom: 5%;
+    background-color: #fff;
+}
+#mission{
+    width:65%;
+    margin: 0 auto;
+    padding: 2% 4% 2%;
+    border-radius: 50px;
+    border: 1px solid #74282A;
+    margin-bottom: 5%;
+    background-color: #fff;
 }
 
-
 #section6{
-    margin: 5% 0% 0%;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding: 3% 0;
+    background-color: #f0ebe2;
 }
-#section6 li{
+.f-li{
+    margin-left: 10%;
+}
+.f-li>li{
     list-style-type: none;
+    display: inline;
+    margin-left: 7%;
+}
+.f-li i{
+    font-size: 2rem;
+    color: #5C1717;
 }
 #followus, #signup{
     float: left;
 }
-
+.followus{
+    font-size: 1.5rem;
+    font-family: 'Courgette', cursive;
+    color:#5C1717;
+}
 #followus{
-    width: 40%;
+    width: 50%;
     margin-left: 9%;
+    margin-top: 1%;
 }
 #signup{
     margin-left: 10%;
+    font-family: 'Public Sans', sans-serif;
+    color:#172161;
+    font-size: 1.1rem;
 }
 
 #email{
@@ -111,27 +220,44 @@
     width: 30%;
 }
 .contactform{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
+    color: #3EAC24;
 }
 #section7 h1{
     text-align: left;
     text-decoration: underline;
     text-transform: uppercase;
+    color:#5C1717;
 }
 .form input{
     padding: 3%;
     margin-top: 7%;
+    margin-bottom: 7%;
+}
+#submit{
+    background-color: #853335;
+    padding: 2% 5%;
+    border-radius: 30px;
+    border: 1px solid white;
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: 'Public Sans', sans-serif; 
 }
 #cusemail{
     margin-left: 3%;
 }
-#message{
-    width:88%;
+.form textarea{
+   width: 78%;
+   padding: 3%;
+   height: 7vh;
+   font-family: 'Cabin', sans-serif;
+    color: #172161;
 }
 .contactinfo{
     margin-top: 9%;
-    font-size: 1.1rem;
+    font-family: 'Public Sans', sans-serif;
+    color: #172161;
 }
 #map iframe{
     width: 100%;
@@ -148,7 +274,8 @@
 .paymentgp img{
     width: 11%;
     height: 6vh;
-    margin: 0 3% 4%;
+    margin: 0 4% 4%;
+    border-radius: 10px;
 }
 .paymentgp li{
     list-style-type: none;
@@ -156,18 +283,13 @@
 }
 #payment p{
     text-align: center;
-    margin-right: 5%;
+    font-family: 'Public Sans', sans-serif;
+    color:black;
 }
 
-.kpay{
-    margin-left: 5%;
-}
-.wave{
-    margin-right: 4%;
-}
 .paymentgp{
     margin: 0 auto;
-    width: 30%;
+    width: 35%;
 }
 
 .float{
@@ -181,11 +303,15 @@
 #footer4{
     width: 30%;
 }
+#footer4 p{
+    color: #fff;
+    font-family: 'Public Sans', sans-serif;
+}
 footer{
     margin: 0 auto;
-    padding-bottom: 1%;
+    padding-bottom: 3%;
     height: 20vh;
-    padding-top: 2%;
+    padding-top: 3%;
     background-color: gray;
 }
 footer ul{
@@ -196,18 +322,21 @@ footer li{
 }
 footer a{
     color: white;
+    font-family: 'Public Sans', sans-serif; 
 }
 footer h5{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: white;
-    
+    margin-bottom: 7%;
 }
 
 #copyright{
     background-color: #333;
-    height: 3vh;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 #copyright p{
     color: white;
     text-align: center;
+    font-family: 'Public Sans', sans-serif;
 }

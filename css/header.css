@@ -12,7 +12,9 @@
 a{
     text-decoration: none;
 }
-
+#h-container{
+    background-color: #fbfbfb;
+}
 header{
     width: 80%;
     margin: 0 auto;
@@ -49,7 +51,6 @@ header{
     margin-left: 4%;
     font-family: 'Cabin', sans-serif;
     font-size: 1.1rem;
-
 }
 .navbar1{
     position: relative;
