@@ -16,11 +16,11 @@
 
 #r-slider{
     width: 30%;
-   margin-top: 12%;
-   margin-left: 15%;
-   font-size: 2rem;
-   font-family: 'Kavoon', cursive;
-   color: #5c1717;
+   margin-top: 10%;
+   margin-left: 10%;
+   font-size: 3rem;
+   font-family: 'Fredoka One', cursive;
+   color: #172161;
 }
 
 .r-img{
@@ -56,9 +56,19 @@
     margin-right: 6%;
     background-color: white;
     padding: 3%;
-    margin-top: 3%;
+    margin-top: 1%;
 }
-
+.fback-l p{
+    font-family: 'Public Sans', sans-serif;
+    color: #172161;
+    margin-top: 4%;
+    text-align: justify;
+}
+.name{
+    font-family: 'Courgette', cursive;
+    color: #172161;
+    font-size: 1.5rem;
+}
 .fback-l1{
     width: 49%;
     border: 1px solid solid;
@@ -66,7 +76,13 @@
     margin-left: 5%;
     background-color: white;
     padding: 3%;
-    margin-top: 3%;
+    margin-top: 2%;
+}
+.fback-l1 p{
+    font-family: 'Public Sans', sans-serif;
+    color: #172161;
+    margin-top: 4%;
+    text-align: justify;
 }
 .fback-img1{
     width: 33%;

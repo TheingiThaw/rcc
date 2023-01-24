@@ -292,9 +292,21 @@ a{
 }
 .testimonial p{
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-top: 4%;
     font-family: 'Public Sans', sans-serif;
+    color: #172161;
+    letter-spacing: 1%;
+    line-height: 25px;
+    width: 90%;
+    margin: auto;
+}
+.name{
+    font-family: 'Courgette', cursive;
+    color: #172161;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 8%;
 }
 
 #section6{

@@ -3,10 +3,136 @@
     padding: 0;
 }
 
-#section1{
-    background-image: url('../images/offer1.jpg');
+
+.float{
+    float: left;
+}
+#clear{
+    clear:both;
+}
+a{
+    text-decoration: none;
+}
+#h-container{
+    background-image: url('../images/camping3.jpg');
     background-size: cover;
     background-position: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    width: 80%;
+    margin: 0 auto;
+}
+#logo{
+    width: 17%;
+}
+.logoimg{
+    width: 80%;
+    height: 13vh;
+    position: relative;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+#search{
+    width: 45%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+#search>input{
+    width: 90%;
+    padding: 1% 2%;
+    border-radius: 10px;
+    background-color: transparent;
+}
+#navbar1{
+    width: 32%;
+    margin-top: 3%;
+}
+#navbar1 li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 4%;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.1rem;
+}
+.navbar1{
+    position: relative;
+}
+.navbar1 i{
+    font-size: 1.3rem;
+    color:#172161;
+}
+.navbar1 select{
+    color: #172161;
+    font-size: 1.1rem;
+    font-family: 'Cabin', sans-serif;
+    background-color: transparent;
+}
+::placeholder{
+    font-family: 'Cabin', sans-serif;
+    color: #172161;
+}
+#country{
+    border: none;
+}
+
+#navbar2{
+    width:81%;
+    margin: 0 auto;
+}
+#navbar2 ul{
+    display: block;
+    padding: 0.7% 0%;
+    margin-left: 5%;
+}
+#navbar2 li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.1rem;
+    
+}
+#header a{
+    color: #172161;
+}
+#navbar2 a{
+    color: #172161;
+}
+
+
+#slider{
+    width: 35%;
+    position: absolute;
+    top: 25%;
+    right: 7%;
+}
+#slider h1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.3rem;
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 6%;
+    color: black;
+}
+#slider input{
+    background-color: transparent;
+    padding: 2% 5%;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: 'Public Sans', sans-serif; 
+    margin-left: 64%;
+}
+
+#container{
+    background-color: #FFFFFE;
+}
+#section1{
     width: 80%;
     margin: 0 auto;
     height: 40vh;
@@ -20,6 +146,8 @@
 #section2>h1{
     text-align: center;
     padding: 5% 0%;
+    font-family: 'Rowdies', cursive;
+    color: #172161;
 }
 
 .sortby{
@@ -28,6 +156,9 @@
     padding: 1% 0%;
     border-radius: 15px;
     text-align: center;
+    color:#D97C00;
+    font-weight: bold;
+    border: 1px solid #FB9000;
 }
 #packages{
     width: 100%;
@@ -43,4 +174,263 @@
 }
 .right{
     margin-right: 0px;
+}
+.package img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+.package h3{
+    font-family: 'Rowdies', cursive;
+    color: #172161;
+    margin: 4% 0%;
+    margin-left: 2%;
+}
+.package p{
+    font-family: 'Public Sans', sans-serif;
+    margin-left: 2%;
+    
+}
+.p-price{
+    color: #FB9000;
+    font-weight: bold;
+    margin-left: 3%;
+    line-height: 30px;
+}
+.more{
+    background-color: #FB9000;
+    padding: 2% 7%;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    width: 30%;
+    margin: 5% auto 0%;
+    text-align: center;
+}
+
+#section5{
+    background-color: #fff;
+    padding-top: 3%;
+    padding-bottom: 6%;
+}
+.testimonial{
+    width: 30%;
+    float: left;
+}
+.profileimg{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#section5 h2, h1{
+    text-align: center;
+    padding-top: 1%;
+}
+#section5 h2{
+    font-family: 'Rowdies', cursive;
+    color: #172161;
+    font-size: 1.5rem;
+}
+#section5 h1{
+    margin-bottom: 3%;
+    margin-top: 1%;
+    font-family: 'Fredoka One', cursive;
+    color: #FB9000;
+    font-size: 2.2rem;
+}
+.t1{
+    margin-left: 2%;
+}
+.t2{
+    margin: 0% 2%;
+}
+.t3{
+    margin-right: 2%;
+}
+.testimonial p{
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 4%;
+    font-family: 'Public Sans', sans-serif;
+}
+
+#section6{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 3% 0;
+}
+.f-li{
+    margin-left: 10%;
+}
+.f-li>li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 7%;
+}
+.f-li i{
+    font-size: 2rem;
+    color: #FB9000;
+}
+#followus, #signup{
+    float: left;
+}
+.followus{
+    font-size: 1.5rem;
+    font-family: 'Courgette', cursive;
+    color:#FB9000;
+}
+#followus{
+    width: 50%;
+    margin-left: 9%;
+    margin-top: 1%;
+}
+#signup{
+    margin-left: 10%;
+    font-family: 'Public Sans', sans-serif;
+    color:#172161;
+    font-size: 1.1rem;
+}
+
+#email{
+    display: block;
+    margin-top: 6%;
+    padding: 4%;
+    width: 100%;
+}
+
+
+#section7{
+    width: 80%;
+    margin: 5% auto;
+}
+
+#form, #contact, #map{
+    float: left;
+}
+#form{
+    width: 40%;
+}
+#contact{
+    width: 30%;
+}
+.contactform{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: #3EAC24;
+}
+#section7 h1{
+    text-align: left;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color:#D97C00;
+}
+.form input{
+    padding: 3%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+#submit{
+    background-color: #D97C00;
+    padding: 2% 5%;
+    border-radius: 30px;
+    border: 1px solid white;
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: 'Public Sans', sans-serif; 
+}
+#cusemail{
+    margin-left: 3%;
+}
+.form textarea{
+   width: 78%;
+   padding: 3%;
+   height: 7vh;
+   font-family: 'Cabin', sans-serif;
+    color: #172161;
+}
+.contactinfo{
+    margin-top: 9%;
+    font-family: 'Public Sans', sans-serif;
+    color: #172161;
+}
+#map iframe{
+    width: 100%;
+}
+
+#section8{
+    width: 100%;
+}
+#payment{
+    width: 100%;
+    margin: 5% auto;
+}
+.paymentgp img{
+    width: 11%;
+    height: 6vh;
+    margin: 0 4% 4%;
+    border-radius: 10px;
+}
+.paymentgp li{
+    list-style-type: none;
+    display: inline;
+}
+#payment p{
+    text-align: center;
+    font-family: 'Public Sans', sans-serif;
+    color:black;
+}
+
+.paymentgp{
+    margin: 0 auto;
+    width: 35%;
+}
+
+.float{
+    float: left;
+}
+
+#footer1, #footer2, #footer3{
+    width: 17%;
+    margin-left: 5%;
+}
+#footer4{
+    width: 30%;
+}
+#footer4 p{
+    color: #fff;
+    font-family: 'Public Sans', sans-serif; 
+}
+footer{
+    margin: 0 auto;
+    padding-bottom: 3%;
+    height: 20vh;
+    padding-top: 3%;
+    background-color: gray;
+}
+footer ul{
+    list-style-type: none;
+}
+footer li{
+    margin-top: 2%;
+}
+footer a{
+    color: white;
+    font-family: 'Public Sans', sans-serif; 
+}
+footer h5{
+    font-size: 1.4rem;
+    color: white;
+    margin-bottom: 7%;
+}
+
+#copyright{
+    background-color: #333;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#copyright p{
+    color: white;
+    text-align: center;
+    font-family: 'Public Sans', sans-serif;
 }

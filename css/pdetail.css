@@ -13,6 +13,7 @@
     border: none;
     font-family: 'Cabin', sans-serif;
     font-size: 1.1rem;
+    color:#172161;
 }
 
 #header li{
@@ -21,13 +22,14 @@
 }
 #header a{
     text-decoration: none;
-    margin-left: 20%;
+    margin-left: 6%;
     font-family: 'Cabin', sans-serif;
     font-size: 1.1rem;
+    color:#172161;
 }
 
 #navbar1{
-    width: 25%;
+    width: 27%;
     margin-left: 5%;
     margin-top: 1%;
 }
@@ -47,6 +49,8 @@
 }
 #navbar2 i{
     font-size: 1.3rem;
+    color:#172161;
+    margin-left: 6%;
 }
 .left{
     margin-left: 0px;
@@ -57,57 +61,106 @@
 }
 #container{
     margin: 0 auto;
-    width: 60%;
+    width: 73%;
     background-color: #f0ebe2;
     padding: 3%;
 }
 .float{
     float: left;
 }
+
+#pd-header{
+    text-align: center;
+}
+#pd-header h1{
+    color: #5C1717;
+    margin-bottom: 2%;
+    font-family: 'Fredoka One', cursive;
+}
+.navline{
+    display: inline;
+    color: #5C1717;
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+}
+#pd-header i{
+    color: #5C1717;
+}
+
 #p-img{
-    width: 40%;
+    width: 50%;
 }
 #p-detail{
-    width: 47%;
+    width: 43%;
     padding: 3%;
-    margin-left: 5%;
+    margin-top: 3%;
 }
 .p-img>img{
     width: 100%;
-    height: auto;
-    margin-top: 30%;
+    height: 60vh;
+    margin-top: 20%;
+    border-radius: 50px;
 }
 
+#p-detail i{
+    color: #FFD600;
+}
 #p-detail h1{
     margin-bottom: 4%;
+    font-family: 'Rowdies', cursive;
+    color: #172161;
+    font-size: 2rem;
 }
 #p-detail p{
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-align: justify;
     margin-top: 4%;
 }
 #specs{
     margin-top: 5%;
+    line-height: 50pt;
 }
+.spec{
+    color: #172161;
+}
+.points{
+    color:#D65407;
+    font-weight: bold;
+}
+
 #f-purchase{
     width: 50%;
-    padding: 3%;
+    padding: 1%;
     text-align: center;
     border-radius: 15px;
-    border: 1px solid black;
+    border: 1px solid #D65407;
     margin: 5% auto;
+    background-color: #fff;
 }
+#f-purchase h3{
+    color:#172161;
+    font-family: 'Fredoka One', cursive;
+    margin-bottom: 3%;
+}
+.price{
+    color:#D65407;
+    font-weight: bold;
+}
+
 #atcart{
     width: 80%;
-    margin: 0 auto;
+    margin:0 auto ;
 
 }
 .atcart{
     text-decoration: none;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 2% 9%;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 2% 6%;
     margin-left: 50%;
+    background-color: #D65407;
+    color: #fff;
+    font-family: 'Fredoka One', cursive;
 }
 
 
