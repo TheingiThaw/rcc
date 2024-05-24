@@ -3,11 +3,11 @@
     padding: 0;
 }
 
-#header{
+#head-sec{
     width: 100%;
     background-color: #fbfbfb;
 }
-#header select{
+#head-sec select{
     background-color: transparent;
     padding: 2%;
     border: none;
@@ -16,17 +16,47 @@
     color:#172161;
 }
 
-#header li{
+#head-sec li{
     list-style-type: none;
     display: inline;
 }
-#header a{
+#head-sec a{
     text-decoration: none;
-    margin-left: 6%;
     font-family: 'Cabin', sans-serif;
     font-size: 1.1rem;
     color:#172161;
+    padding: 3% 4%;
+    display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
 }
+#head-sec a:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-color: #2098D1;
+    border-style: solid;
+    border-width: 0;
+    -webkit-transition-property: border-width;
+    transition-property: border-width;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  #head-sec a:hover:before, #head-sec a:focus:before, #head-sec a:active:before {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    border-width: 4px;
+  }
 
 #navbar1{
     width: 27%;
@@ -89,6 +119,7 @@
 
 #p-img{
     width: 50%;
+    display: flex;
 }
 #p-detail{
     width: 43%;
@@ -100,12 +131,21 @@
     height: 60vh;
     margin-top: 20%;
     border-radius: 50px;
+    flex-grow:1;
+    transition: .3s all ease;
+    object-fit: cover;
+    opacity: 1;
+}
+.p-img>img:hover{
+    flex-grow:50;
+    opacity: 1;
+    filter: contrast(120%);
 }
 
 #p-detail i{
     color: #FFD600;
 }
-#p-detail h1{
+#p-detail h2{
     margin-bottom: 4%;
     font-family: 'Rowdies', cursive;
     color: #172161;
@@ -162,12 +202,18 @@
     color: #fff;
     font-family: 'Fredoka One', cursive;
 }
+.atcart:hover{
+    color: #D65407;
+    background-color: #fff;
+    border: 1px solid #D65407;
+    font-weight: bold;
+}
 
-
-#clear{
+.clear{
     clear: both;
 }
 
+/*discountinfo*/
 #section4{
     background-image: url('../images/campingphoto.jpg');
     background-size: cover;
@@ -178,16 +224,21 @@
     margin-top: 3%;
 }
 .discountinfo{
-    background-color:rgba(186, 189, 191,0.7);
+    background-color:rgba(255, 255, 255, 0.9);
     position: absolute;
     top: 27%;
     left: 67%;
     padding: 3%;
     border-radius: 30px;
+    box-shadow: 8px 10px rgba(186, 189, 191,0.7);
 }
 .discountinfo h3,p,span{
     font-family: 'Public Sans', sans-serif;
     color:#172161;
+}
+.ph-no{
+    color: #4D4E08;
+    font-weight: bold;
 }
 .discountinfo h3{
     margin-bottom: 5%;
@@ -315,4 +366,92 @@ footer h5{
     color: white;
     text-align: center;
     font-family: 'Public Sans', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .logoimg img{
+        width: 80%;
+    }
+    #container{
+        width: 100%;
+    }
+    #p-img{
+        width: 100%;
+    }
+    #p-detail{
+        width: 90%;
+        margin: 3% auto 0%;
+    }
+    .p-img>img{
+        width: 100%;
+        height: 60vh;
+        margin-top: 20%;
+        border-radius: 50px;
+        flex-grow:1;
+        transition: .3s all ease;
+        object-fit: cover;
+        opacity: 1;
+    }
+    .discountinfo{
+        top: 20%;
+        left: 50%;
+    }
+    .discountinfo h3{
+        font-size: 1rem;
+    }
+    .discountinfo p,span{
+        font-size: 0.8rem;
+    }
+    .f-li>li{
+        margin-left: 7%;
+    }
+    .f-li i{
+        font-size: 1.6rem;
+    }
+    .followus{
+        font-size: 1.5rem;
+    }
+    #followus{
+        width: 90%;
+        margin-left: 9%;
+    }
+    #signup{
+        margin-left: 10%;
+        font-size: 1rem;
+        margin-top: 5%;
+    }
+    
+    #email{
+        display: block;
+        margin-top: 6%;
+        padding: 3%;
+        width: 100%;
+    }
+    .paymentgp{
+        width: 100%;
+    }
+    #footer1, #footer2, #footer3{
+        width: 17%;
+        margin-left: 5%;
+    }
+    #footer4{
+        width: 30%;
+    }
+    #footer4 p{
+       font-size: 0.9rem;
+    }
+    footer{
+        height: 27vh;
+    }
+    footer a{
+        color: white;
+        font-size: 0.8rem;
+    }
+    footer h5{
+        font-size: 1.2rem;
+    }
+    
+    #copyright p{
+     font-size: 0.7rem;
+    }
 }

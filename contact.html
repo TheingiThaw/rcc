@@ -16,52 +16,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="h-container">
-        <header id="header">
-            <div id="firstbar">
-                <div id="logo" class="float">
-                    <img src="images/logo.png" class="logoimg" alt="LeSerrafim Retail Camping Company Logo"/>
-                </div>
-
-                <div id="search" class="float">
-                <label for=""><i class="bi bi-search"></i></label>
-                <input type="search" placeholder="Search" />
-                </div>
-
-                <div id="navbar1" class="float">
-                    <ul class="navbar1">
-                        <li><a href="aboutus.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li>
-                            <select id="country">
-                                <option value="">Country</option>
-                                <option value="english">English</option>
-                                <option value="myanmar">Myanmar</option>
-                            </select>
-                        </li>
-                        <li><a href=""><i class="bi bi-person-circle"></i></a></li>
-                        <li><a href=""><i class="bi bi-cart-fill"></i></a></li> 
-                    </ul>
-                </div>
-                <div id="clear"></div>
+    <header id="header">
+        <div id="firstbar">
+            <div id="logo" class="float">
+                <img src="images/logo.png" class="logoimg" alt="LeSerrafim Retail Camping Company Logo">
             </div>
-        </header>
-    
-        <hr>
-        <div id="navbar2">
-                <ul>
-                    <li class="left"><a href="">Mens'</a></li>
-                    <li><a href="">Women's</a></li>
-                    <li><a href="">Kids'</a></li>
-                    <li><a href="">Features</a></li>
-                    <li><a href="">Discount</a></li>
-                    <li><a href="">Gifts Card</a></li>
-                    <li class="right"><a href="">Delivery</a></li>
+
+            <div id="search" class="float">
+            <label><i class="bi bi-search"></i></label>
+            <input type="search" placeholder="Search">
+            </div>
+
+            <div id="navbar1" class="float">
+                <ul class="navbar1">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="review.html">Review</a></li>
+                    <li><a href="offer&package.html">Packages</a></li>
+                    <li>
+                        <select id="country">
+                            <option value="">Country</option>
+                            <option value="english">English</option>
+                            <option value="myanmar">Myanmar</option>
+                        </select>
+                    </li>
+                    <li><a href=""><i class="bi bi-person-circle"></i></a></li>
+                    <li><a href="basket.html"><i class="bi bi-cart-fill"></i></a></li> 
                 </ul>
+            </div>
+            <div class="clear"></div>
         </div>
-        <hr>
-    </div>
+    </header>  
 
     <div id="container">
         <section id="section1">
@@ -89,7 +74,7 @@
                 </p>
     
             </div>
-            <div id="clear"></div>
+            <div class="clear"></div>
             <div id="address">
                 <i class="bi bi-geo-alt-fill"></i>
                 <h3 class="center chead1">LeSerrafim Camping Equipment retail store</h3>
@@ -105,59 +90,59 @@
                 <div id="chat" class="float width">
                     <i class="bi bi-chat-fill"></i>
                     <h4 class="center">Let's have a chat</h4>
-                    <a href=""><span class="atag">Live chat</span></a>
+                    <a href="">Live Chat</a>
                 </div>
                 <div id="request" class="float width">
                     <i class="bi bi-chat-square-dots-fill"></i>
                     <h4 class="center">Drop us a line</h4>
-                    <a href=""><span class="atag">Submit</span></a>
+                    <a href="">Submit</a>
                 </div>
                 <div id="text" class="float width">
                     <i class="bi bi-twitter"></i>
                     <h4 class="center">Tweet Us</h4>
-                    <a href=""><span class="atag">Tweet</span></a>
+                    <a href="">Tweet</a>
                 </div>
                 <div id="tweet" class="float width">
                     <i class="bi bi-envelope-paper-heart-fill"></i>
                     <h4 class="center">Feedback Us</h4>
-                    <a href=""><span class="atag">Feedback</span></a>
+                    <a href="review.html">Feedback</a>
                 </div>
-                <div id="clear"></div>
+                <div class="clear"></div>
             </div>
         </section>
     
-        <section id="section4">
+        <div id="section4">
             <form id="cform">
                 <div id="form">
-                    <label for="">Name</label>
-                    <input type="text" name="cname" value=""/>
+                    <label>Name</label>
+                    <input type="text" name="cname" value="">
                 <hr>
                 </div>
                 <div id="form">
-                    <label for="">Email</label>
-                    <input type="email" name="cemail" value=""/>
+                    <label>Email</label>
+                    <input type="email" name="cemail" value="">
                 <hr>
                 </div>
                 <div id="form">
-                    <label for="">Phone</label>
-                    <input type="text" name="cphone" value=""/>
+                    <label>Phone</label>
+                    <input type="text" name="cphone" value="">
                 <hr>
                 </div>
                 <div id="form">
-                    <textarea name="message" id="" cols="30" rows="10"         
-                     placeholder="Message">
+                    <textarea name="message" cols="30" rows="10" placeholder="Message">
                     </textarea>
                 <hr>
                 </div>
                 <div>
-                    <input type="checkbox" id="cb"/>
+                    <input type="checkbox" id="cb">
                     <span class="cb">Don't miss out! Tick to box to receive exclusive 
                          offers, news and updates via email.</span>
                 </div>
+                <input type="submit" id="submit" value="Submit">
             </form>
             
     
-        </section>
+        </div>
     </div>
 
     <footer>
@@ -194,7 +179,7 @@
                please call 09-777-333-222 for assistance.
             </p>
         </div>
-        <div id="clear"></div>
+        <div class="clear"></div>
     </footer>
 
     <div id="copyright">

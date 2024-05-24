@@ -48,7 +48,7 @@
     width: 25%;
 }
 #shopnow4{
-    background:linear-gradient(90deg,rgba(95, 93, 90,0.5),rgba(95, 93, 90,0.3)), url('../images/accessories.jpg');
+    background:linear-gradient(90deg,rgba(95, 93, 90,0.9),rgba(95, 93, 90,0.7)), url('../images/accessories.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -82,15 +82,21 @@
     left: 40%;
     color: #5c1717;
     background-color: #fff;
+    font-weight: bold;
 }
-
+.shopnow:hover{
+    font-weight: bold;
+    color: #fff;
+    background-color: #5C1717;
+    border: 1px solid #fff;
+}
 
 #container{
     background-color: #f0ebe2;
 }
 #campfur{
     width: 100%;
-    margin: 5% 0% 1%;;
+    margin: 5% 0% 1%;
 }
 #campfur h1{
     width: 20%;
@@ -173,9 +179,13 @@
     background-color: #5c1717;
     padding: 3%;
     text-align: center;
+}
+.atobag a{
     color: #fff;
     font-family:  'Public Sans', sans-serif;
+    width: 100%;
 }
+
 .i-icon{
     background-color: #5c1717;
     color: #fff;
@@ -267,7 +277,12 @@
     font-family:  'Public Sans', sans-serif;
     font-weight: bold;
 }
-
+#moreresults a:hover{
+    background-color: #5C1717;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #fff;
+}
 #section3{
     width: 60%;
     margin: 5% auto;
@@ -282,7 +297,9 @@
 #bttop{
     width: 100%;
     text-align: center;
+    margin-top: 5%;
 }
+
 .bttop{
     font-size: 1.4rem;
     font-family:  'Public Sans', sans-serif;
@@ -291,6 +308,7 @@
 #bttop>hr{
     font-weight: bold;
 }
+
 
 #section6{
     border-top: 1px solid black;
@@ -342,8 +360,8 @@
     width: 100%;
 }
 #payment{
-    width: 100%;
-    margin: 5% auto;
+    width: 40%;
+    margin: 5% 0% 5% 9%;
 }
 .paymentgp img{
     width: 11%;
@@ -360,16 +378,21 @@
     font-family: 'Public Sans', sans-serif;
     color:black;
 }
-
-.paymentgp{
+#map{
+    width: 40%;
     margin: 0 auto;
-    width: 35%;
+    justify-content: center;
+    display: flex;
+    vertical-align: middle;
+}
+#map iframe{
+    margin: 5% auto;
 }
 
 .float{
     float: left;
 }
-
+/*footer*/
 #footer1, #footer2, #footer3{
     width: 17%;
     margin-left: 5%;
@@ -413,4 +436,157 @@ footer h5{
     color: white;
     text-align: center;
     font-family: 'Public Sans', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .shopinfo{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        width: 70%;
+    }
+    .shopinfo h3{
+        font-size: 1.2rem;
+    }
+    .shopnow{
+        padding: 7%;
+        border-radius: 20px;
+        top: 120%;
+        left: 40%;
+        font-size: 0.8rem;
+    }
+    #campfur h1{
+        width: 20%;
+        font-size: 1.4rem;
+        margin-left: 5%;
+    }
+    .sortby{
+        width: 18%;
+    }
+    #furnitures{
+        width: 97%;
+        margin: 0 auto;
+    }
+    .items{
+        width: 40%;
+        height: 65vh;
+        margin-left: 5%;
+    }
+    .items h3{
+        font-size: 0.9rem;
+    }
+    .items p{
+        font-size: 0.7rem;
+    }
+    .price{
+        font-size: 0.8rem;
+    }
+    .oldprice{
+        font-size: 0.6rem;
+        margin-left: 7%;
+    }
+    .table{
+        width: 70%;
+        position: absolute;
+        bottom: 4%;
+        left: 15%;
+    }
+    .table table{
+        width: 100%;
+        padding: 2%;
+    }
+    .items select{
+        padding: 3%;
+    }
+    .imgdiv1{
+        width: 100%;
+        height: 50%;
+        border-radius: 20px;
+    }
+    .imgdiv2{
+        width: 100%;
+        height: 50%;
+        border-radius: 20px;
+    }
+    .imgdiv3{
+        width: 100%;
+        height: 50%;
+        border-radius: 20px;
+    }
+    .imgdiv4{
+        width: 100%;
+        height: 50%;
+        border-radius: 20px;
+    }
+    .imgdiv5{
+        width: 100%;
+        height: 50%;
+        border-radius: 20px;
+    }
+    .imgdiv6{
+        width: 100%;
+        height: 50%;
+        border-radius: 20px;
+    }
+    .imgdiv7{
+        width: 100%;
+        height: 50%;
+        border-radius: 20px;
+    }
+    .imgdiv8{
+        width: 100%;
+        height: 50%;
+        border-radius: 20px;
+    } 
+    .f-li>li{
+        margin-left: 7%;
+    }
+    .f-li i{
+        font-size: 1.6rem;
+    }
+    .followus{
+        font-size: 1.5rem;
+    }
+    #followus{
+        width: 90%;
+        margin-left: 9%;
+    }
+    #signup{
+        margin-left: 10%;
+        font-size: 1rem;
+        margin-top: 5%;
+    }
+    #email{
+        display: block;
+        margin-top: 6%;
+        padding: 3%;
+        width: 100%;
+    }
+    .paymentgp{
+        width: 100%;
+    }
+    #footer1, #footer2, #footer3{
+        width: 17%;
+        margin-left: 5%;
+    }
+    #footer4{
+        width: 30%;
+    }
+    #footer4 p{
+       font-size: 0.9rem;
+    }
+    footer{
+        height: 27vh;
+    }
+    footer a{
+        color: white;
+        font-size: 0.8rem;
+    }
+    footer h5{
+        font-size: 1.2rem;
+    }
+    
+    #copyright p{
+     font-size: 0.7rem;
+    }
 }

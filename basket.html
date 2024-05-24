@@ -17,52 +17,37 @@
         <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="h-container">
-        <header id="header">
-            <div id="firstbar">
-                <div id="logo" class="float">
-                    <img src="images/logo.png" class="logoimg" alt="LeSerrafim Retail Camping Company Logo"/>
-                </div>
-
-                <div id="search" class="float">
-                <label for=""><i class="bi bi-search"></i></label>
-                <input type="search" placeholder="Search" />
-                </div>
-
-                <div id="navbar1" class="float">
-                    <ul class="navbar1">
-                        <li><a href="aboutus.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li>
-                            <select id="country">
-                                <option value="">Country</option>
-                                <option value="english">English</option>
-                                <option value="myanmar">Myanmar</option>
-                            </select>
-                        </li>
-                        <li><a href=""><i class="bi bi-person-circle"></i></a></li>
-                        <li><a href=""><i class="bi bi-cart-fill"></i></a></li> 
-                    </ul>
-                </div>
-                <div id="clear"></div>
+    <header id="header">
+        <div id="firstbar">
+            <div id="logo" class="float">
+                <img src="images/logo.png" class="logoimg" alt="LeSerrafim Retail Camping Company Logo">
             </div>
-        </header>
-    
-        <hr>
-        <div id="navbar2">
-                <ul>
-                    <li class="left"><a href="">Mens'</a></li>
-                    <li><a href="">Women's</a></li>
-                    <li><a href="">Kids'</a></li>
-                    <li><a href="">Features</a></li>
-                    <li><a href="">Discount</a></li>
-                    <li><a href="">Gifts Card</a></li>
-                    <li class="right"><a href="">Delivery</a></li>
+
+            <div id="search" class="float">
+            <label><i class="bi bi-search"></i></label>
+            <input type="search" placeholder="Search">
+            </div>
+
+            <div id="navbar1" class="float">
+                <ul class="navbar1">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="review.html">Review</a></li>
+                    <li><a href="offer&package.html">Packages</a></li>
+                    <li>
+                        <select id="country">
+                            <option value="">Country</option>
+                            <option value="english">English</option>
+                            <option value="myanmar">Myanmar</option>
+                        </select>
+                    </li>
+                    <li><a href=""><i class="bi bi-person-circle"></i></a></li>
                 </ul>
+            </div>
+            <div class="clear"></div>
         </div>
-        <hr>
-    </div>
+    </header>  
 
     <div id="container">
         <section id="section1">
@@ -77,9 +62,9 @@
                 </tr>
                 <tr>
                     <td class="i-name">
-                        <img src="images/c2.jpg" class="float"/>
+                        <img src="images/c2.jpg" class="float" alt="Naturehike Foldable Ultralight Camping Chair">
                         <p class="float">Naturehike Foldable Ultralight Camping Chair</p>
-                        <div id="clear"></div>
+                        <div class="clear"></div>
                     </td>
                     <td>$129.00</td>
                     <td><select>
@@ -91,9 +76,9 @@
                 </tr>
                 <tr>
                     <td class="i-name">
-                        <img src="images/t4.jpg" class="float"/>
+                        <img src="images/t4.jpg" class="float" alt="Unbound 2P">
                         <p class="float">Unbound 2P</p>
-                        <div id="clear"></div>
+                        <div class="clear"></div>
                     </td>
                     <td>$559.20</td>
                     <td><select>
@@ -105,9 +90,9 @@
                 </tr>
                 <tr>
                     <td class="i-name">
-                        <img src="images/hl4.jpg"  class="float"/>
+                        <img src="images/hl4.jpg"  class="float" alt="Headlamp Rechargeable USB Headlamps">
                         <p class="float">Headlamp Rechargeable USB Headlamps</p>
-                        <div id="clear"></div>
+                        <div class="clear"></div>
                     </td>
                     <td>$22.94</td>
                     <td><select>
@@ -119,9 +104,9 @@
                 </tr>
                 <tr>
                     <td class="i-name">
-                        <img src="images/tb1.jpg"  class="float"/>
+                        <img src="images/tb1.jpg"  class="float" alt="Woods Folding Portable Camping Table Set with 4 Camping Chairs">
                         <p class="float">Woods Folding Portable Camping Table Set with 4 Camping Chairs</p>
-                        <div id="clear"></div>
+                        <div class="clear"></div>
                     </td>
                     <td>$99</td>
                     <td><select>
@@ -136,23 +121,23 @@
 
             <div id="c-final">
                 <div class="c-final">
-                    <label for="">Subtotal:</label>
-                    <input type="" placeholder="$810.14"/>
+                    <label>Subtotal:</label>
+                    <input type="text" value="$810.14">
                     <hr>
                 </div>
                 <div class="c-final">
-                    <label for="">Sales Tax:</label>
-                    <input type="" placeholder="$81"/>
+                    <label>Sales Tax:</label>
+                    <input type="text" value="$81">
                     <hr>
                 </div>
                 <div class="c-final">
-                    <label for="">Coupon Code:</label>
-                    <input type="text" placeholder="Add Coupon"/>
+                    <label>Coupon Code:</label>
+                    <input type="text" value="Add Coupon">
                     <hr>
                 </div>
                 <div class="c-final">
-                    <label for="">Grand total:</label>
-                    <input type="" placeholder="$891.14"/>
+                    <label>Grand total:</label>
+                    <input type="text" value="$891.14">
                     <hr>
                 </div>
             </div>
@@ -160,7 +145,7 @@
         </section>
 
         <section id="section2">
-            <h3>Check these out<i class="bi bi-arrow-down-square-fill"></i></h3>
+            <h3 class="check-fur">Check these out<i class="bi bi-arrow-down-square-fill icon-d"></i></h3>
             <section id="items">
 
                 <div id="furnitures">
@@ -393,9 +378,7 @@
                             </table>
                         </div>
                     </div>
-                    
-                    
-                    <div id="clear"></div>
+                    <div class="clear"></div>
                 <div id="moreresults">
                     <a href="">More results</a>
                 </div>
@@ -403,7 +386,7 @@
             </section>
         </section>
 
-        <section id="section6">
+        <div id="section6">
             <div id="followus">
                 <span class="followus float">Follow us</span>
                 <ul class="f-li">
@@ -412,40 +395,40 @@
                     <li><a href=""><i class="bi bi-twitter"></i></a></li>
                     <li><a href=""><i class="bi bi-pinterest"></i></a></li>
                 </ul>
-                <div id="clear"></div>
+                <div class="clear"></div>
             </div>
             <div id="signup">
-                <label for="signup">Sign Up for exclusive deals and offers</label>
-                <input type="email" id="email" name="email" placeholder="Your Email"/>
+                <label>Sign Up for exclusive deals and offers</label>
+                <input type="email" id="email" name="email" placeholder="Your Email">
             </div>
-            <div id="clear"></div>
-        </section>
+            <div class="clear"></div>
+        </div>
 
-         <section id="section8">
+            <div id="section8">
                 <div id="payment">
                     <div class="paymentgp">
                     <ul>
-                        <li><a href="">
-                            <img src="images/kpay.webp" class="paymentimg kpay float"/></a>
+                        <li><a href="https://www.kbzpay.com/en/">
+                            <img src="images/kpay.webp" alt="Kpay logo" class="paymentimg kpay float"></a>
                         </li>
-                        <li><a href="">
-                            <img src="images/cbbank.png" class="paymentimg float"/></a>
+                        <li><a href="https://www.cbbank.com.mm/en">
+                            <img src="images/cbbank.png" alt="cbbank logo" class="paymentimg float"></a>
                         </li>
-                        <li><a href="">
-                            <img src="images/yomabank.png" class="paymentimg float"/></a>
+                        <li><a href="https://www.yomabank.com/mm/personal">
+                            <img src="images/yomabank.png" alt="yomabank logo" class="paymentimg float"></a>
                         </li>
-                        <li><a href="">
-                            <img src="images/kbzbank.png" class="paymentimg float"/></a>
+                        <li><a href="https://www.kbzbank.com/en/">
+                            <img src="images/kbzbank.png" alt="kbzbank logo" class="paymentimg float"></a>
                         </li>
-                        <li><a href="">
-                            <img src="images/wavepay.png" class="paymentimg wave float"/></a>
+                        <li><a href="https://wavemoney.com.mm/wavemoney">
+                            <img src="images/wavepay.png" alt="wavepay logo" class="paymentimg wave float"></a>
                         </li>
                     </ul>
                     </div>
-                    <div id="clear"></div>
+                    <div class="clear"></div>
                     <p>All major credit cards accepted.</p>
                 </div>
-            </section>
+            </div>
 
         
         <footer>
@@ -482,7 +465,7 @@
                        please call 09-777-333-222 for assistance.
                     </p>
                 </div>
-                <div id="clear"></div>
+                <div class="clear"></div>
         </footer>
 
         <div id="copyright">

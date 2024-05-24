@@ -5,7 +5,9 @@
 #container{
     background-color: #f0ebe2;
 }
-
+.clear{
+    clear: both;
+}
     
 #section1{
     width: 100%;
@@ -34,7 +36,8 @@
 #section2{
     width: 60%;
     margin: 0 auto;
-    padding: 3%
+    padding: 3%;
+
 }
 
 .feedbacks{
@@ -57,6 +60,7 @@
     background-color: white;
     padding: 3%;
     margin-top: 1%;
+    box-shadow: 5px 9px #5C1717;
 }
 .fback-l p{
     font-family: 'Public Sans', sans-serif;
@@ -77,6 +81,7 @@
     background-color: white;
     padding: 3%;
     margin-top: 2%;
+    box-shadow: 5px 9px #5C1717;
 }
 .fback-l1 p{
     font-family: 'Public Sans', sans-serif;
@@ -90,6 +95,67 @@
 }
 .fback-img1>img{
     border-radius: 50px;
+}
+
+#section4{
+    width: 100%;
+    padding-bottom: 3%;
+    background-color: #fff;
+} 
+#cform{
+    width: 30%;
+    padding: 2%;
+    padding-bottom: 0px;
+    margin: 0 auto;
+}
+#form1{
+    margin-top: 2%;
+}
+#form1>label{
+    width: 25%;
+    padding: 3%;
+    font-family: 'Rowdies', cursive;
+    color: #172161;
+}
+
+#form1>input{
+    background-color: transparent;
+    border:none;
+    width: 82%;
+    margin-right: 0px;
+    padding: 3% 0%;
+}
+#form1>textarea{
+    background-color: transparent;
+    width: 90%;
+    padding: 6% 5%;
+    border: none;
+}
+.cb{
+    font-family:'Public Sans', sans-serif;
+    color: #5c1717;
+    margin-top: 3%;
+}
+#cb{
+    font-size: 1.3rem;
+    margin-top: 3%;
+}
+#submit{
+    background-color: #853335;
+    padding: 2% 5%;
+    border-radius: 30px;
+    border: 1px solid white;
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: 'Public Sans', sans-serif; 
+    display: block;
+    margin: 5% auto 3%;
+}
+#submit:hover{
+    background-color: white;
+    color: #853335;
+    border: 1px solid #853335;
+    font-weight: bold;
 }
 
 
@@ -169,7 +235,7 @@
     margin-top: 7%;
     margin-bottom: 7%;
 }
-#submit{
+#submit1{
     background-color: #853335;
     padding: 2% 5%;
     border-radius: 30px;
@@ -177,6 +243,12 @@
     color: #fff;
     font-size: 1.1rem;
     font-family: 'Public Sans', sans-serif; 
+}
+#submit1:hover{
+    background-color: white;
+    color: #853335;
+    border: 1px solid #853335;
+    font-weight: bold;
 }
 #cusemail{
     margin-left: 3%;
@@ -272,4 +344,169 @@ footer h5{
     color: white;
     text-align: center;
     font-family: 'Public Sans', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    #r-slider{
+       margin-top: 5%;
+       margin-left: 5%;
+       font-size: 1.5rem;
+    }
+    
+    #section2{
+        width: 100%;
+    }
+    .feedbacks{
+        margin-top: 1% ;
+    }
+    .fback-img{
+        width: 25%;
+        margin-left: 1%;
+    }
+    .fback-img>img{
+        border-radius: 50px;
+    }
+    .fback-l{
+        width: 30%;
+        margin-left: 30%;
+        margin-top: 0%;
+     
+    }
+    .fback-l p{
+        font-size: 0.8rem;
+        margin-top: 2%;
+    }
+    .name{
+        font-size: 1.3rem;
+    }
+    .fback-l1{
+        width: 30%;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    .fback-l1 p{
+       font-size: 0.8rem;
+    }
+    .fback-img1{
+        width: 25%;
+        margin-left: 7%;
+    }
+    .fback-img1>img{
+        border-radius: 50px;
+    }
+    #section3 h4{
+        font-size: 0.8rem;
+    }
+    #section3 a{
+      font-size: 0.8rem;
+    }
+    #cform{
+        width: 80%;
+    }
+    #form{
+        margin-top: 2%;
+    }
+    #form>label{
+        font-size: 0.8rem;
+    }
+    #cb{
+        font-size: 1.2rem;
+    }
+    #submit{
+        font-size: 1rem;
+    }
+    .f-li>li{
+        margin-left: 7%;
+    }
+    .f-li i{
+        font-size: 1.6rem;
+    }
+    .followus{
+        font-size: 1.5rem;
+    }
+    #followus{
+        width: 90%;
+        margin-left: 9%;
+    }
+    #signup{
+        margin-left: 10%;
+        font-size: 1rem;
+        margin-top: 5%;
+    }
+    #email{
+        display: block;
+        margin-top: 6%;
+        padding: 3%;
+        width: 100%;
+    }
+    #section7{
+        width: 80%;
+        margin: 5% auto;
+    }
+    #form, #contact, #map{
+        float: left;
+    }
+    #form{
+        width: 40%;
+    }
+    #contact{
+        width: 100%;
+    }
+    .contactform{
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        color: #3EAC24;
+    }
+    #section7 h2{
+        text-align: left;
+        text-decoration: underline;
+        text-transform: uppercase;
+        color:#5C1717;
+    }
+    .form input{
+        padding: 3%;
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+    #submit{
+        padding: 3% 7%;
+        font-size: 1rem;
+    }
+    #cusemail{
+        margin-left: 0%;
+    }
+    .form textarea{
+       width: 100%;
+    }
+    #map iframe{
+       margin-top: 5%;;
+    }
+    .paymentgp{
+        width: 100%;
+    }
+    #footer1, #footer2, #footer3{
+        width: 17%;
+        margin-left: 5%;
+    }
+    #footer4{
+        width: 30%;
+    }
+    #footer4 p{
+       font-size: 0.9rem;
+    }
+    footer{
+        height: 27vh;
+    }
+    footer a{
+        color: white;
+        font-size: 0.8rem;
+    }
+    footer h5{
+        font-size: 1.2rem;
+    }
+    
+    #copyright p{
+     font-size: 0.7rem;
+    }
+    
 }

@@ -90,6 +90,12 @@
 #section3{
     background-color:#fff;
 }
+#section3 a:hover{
+    background-color: white;
+    color: #853335;
+    border: 1px solid #853335;
+    font-weight: bold;
+}
 #message{
     width: 60%;
     margin: 5% auto 0%;
@@ -111,7 +117,7 @@
     margin: 10% 0% 15%;
     font-family: 'Rowdies', cursive;
 }
-.atag{
+#section3 a{
     border: 1px solid black;
     padding: 3% 8%;
     border-radius: 20px;
@@ -123,7 +129,7 @@
 }
 #section4{
     width: 100%;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
 } 
 #cform{
     width: 30%;
@@ -163,7 +169,23 @@
     font-size: 1.3rem;
     margin-top: 3%;
 }
-
+#submit{
+    background-color: #853335;
+    padding: 2% 5%;
+    border-radius: 30px;
+    border: 1px solid white;
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: 'Public Sans', sans-serif; 
+    display: block;
+    margin: 5% auto;
+}
+#submit:hover{
+    background-color: white;
+    color: #853335;
+    border: 1px solid #853335;
+    font-weight: bold;
+}
 
 #footer1, #footer2, #footer3{
     width: 17%;
@@ -208,4 +230,85 @@ footer h5{
     color: white;
     text-align: center;
     font-family: 'Public Sans', sans-serif;
+}
+
+
+@media only screen and (max-width: 600px){
+    #section2{
+        width: 100%;
+    }
+    #cusservice i{
+        font-size: 2.5rem;
+    }
+    #callcenter i{
+        font-size: 2.5rem;
+    }
+    #address i{
+        font-size: 2.9rem;
+    }
+    .chead{
+        font-size: 1.1rem;
+    }
+    .chead1{
+        font-size: 1.1rem;
+    }
+    
+    .cinfo{
+        line-height: 1.2;
+        font-size: 0.8rem;
+    }
+    #message{
+        width: 100%;
+    }
+    .width{
+        width: 15%;
+    }
+    .width i{
+        font-size: 2rem;
+    }
+    #section3 h4{
+        font-size: 0.8rem;
+    }
+    #section3 a{
+      font-size: 0.8rem;
+    }
+    #cform{
+        width: 80%;
+    }
+    #form{
+        margin-top: 2%;
+    }
+    #form>label{
+        font-size: 0.8rem;
+    }
+    #cb{
+        font-size: 1.2rem;
+    }
+    #submit{
+        font-size: 1rem;
+    }
+    #footer1, #footer2, #footer3{
+        width: 17%;
+        margin-left: 5%;
+    }
+    #footer4{
+        width: 30%;
+    }
+    #footer4 p{
+       font-size: 0.9rem;
+    }
+    footer{
+        height: 27vh;
+    }
+    footer a{
+        color: white;
+        font-size: 0.8rem;
+    }
+    footer h5{
+        font-size: 1.2rem;
+    }
+    
+    #copyright p{
+     font-size: 0.7rem;
+    }
 }
